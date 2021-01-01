@@ -17,7 +17,13 @@ class String
   def count_sentences
 
    array = self.split(/[\.!?] /)
-   array.count=self.split(".","!","?")
+   count_array=[]
+   array.each do |x|
+     if x==".", x=="!", x=="?"
+       count_array << x
+     end
+     count_array.count_array
+   end
 
 
   end
