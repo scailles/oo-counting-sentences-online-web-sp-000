@@ -19,7 +19,7 @@ class String
    array = self.split(/[\.!?] /)
    count_array=[]
    array.each do |x|
-     if x=="."|| x=="!"|| x=="?"
+     if x="."|| x="!"|| x="?"
        count_array << x
      end
      count_array.length
