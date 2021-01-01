@@ -24,8 +24,6 @@ class String
      end
      count_array.count_array
    end
-
-
-  end
+ 
   
 end
