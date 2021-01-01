@@ -22,7 +22,7 @@ class String
      if x=="."|| x=="!"|| x=="?"
        count_array << x
      end
-     count_array.count_array
+     count_array.count
    end
  
   
